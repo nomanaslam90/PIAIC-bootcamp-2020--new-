@@ -33,7 +33,7 @@ jobs:
       run: npm install --global surge
     # Deploy webpage 
     name: Deploying webpage using surge 
-      run: surge ./ nomanaslam.surge.sh --token $ {{ secrects.My_Token }}
+      run: surge ./f/PIAIC/Bootcamp2020/ nomanaslam.surge.sh --token $ {{ secrects.My_Token }}
       
   
   
