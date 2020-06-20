@@ -31,7 +31,8 @@ jobs:
     # Runs a set of commands using the runners shell
     - name: Install Surge
       run: npm install --global surge
-      name: Deploying webpage using surge 
+    # Deploy webpage 
+    name: Deploying webpage using surge 
       run: surge ./ nomanaslam.surge.sh --token $ {{ secrects.My_Token }}
       
   
