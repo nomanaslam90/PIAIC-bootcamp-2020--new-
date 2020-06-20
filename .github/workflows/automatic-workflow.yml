@@ -31,7 +31,7 @@ jobs:
       run: npm install --global surge
     # Deploy webpage 
     - name: Deploying webpage using surge 
-      run: surge ./ nomanaslam.surge.sh --token $ {{ secrets.MY_TOKEN }}
+      run: surge ./ nomanaslam.surge.sh --token "5cd2bf79f53391b75c576160d6a75f0d"
       
   
   
